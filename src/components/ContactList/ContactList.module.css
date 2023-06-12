@@ -1,0 +1,16 @@
+.contactList {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.listElements {
+    margin-bottom: 10px;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    border-radius: 4px;
+    border-color: none;
+    background-color: rgba(11, 4, 86, 0.8);
+    color: rgba(255, 255, 255, 1);
+}

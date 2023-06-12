@@ -1,0 +1,53 @@
+.borderContainer {
+    box-sizing: border-box;
+    width: 340px;
+    height: 280px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-top: 25px;
+}
+
+.phonebookTitle{
+    margin-left: 50px;
+}
+
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-left: 15px;
+    
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left:20px;
+}
+.input {
+    width:250px;
+    padding:10px;
+    margin-top:10px;
+    border: 1px solid rgba(11, 4, 86, 0.8);
+    border-radius: 4px;
+}
+.input:focus {
+    outline-color: rgba(11, 4, 86, 0.8);
+
+}
+.addButton {
+    width: 150px;
+    height:40px;
+    margin-left: 20px;
+    border-radius: 4px;
+    border-color: none;
+    background-color: rgba(11, 4, 86, 0.8);
+    color: rgba(255, 255, 255, 1);
+}
+.addButton:hover {
+    background-color: rgba(3, 1, 24, 0.8);
+}
